@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Home = () => {
+const Post = () => {
   const [title, setTitle] = useState("");
   const [post, setPost] = useState("");
 
@@ -48,4 +48,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Post;
